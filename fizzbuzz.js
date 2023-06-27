@@ -12,7 +12,10 @@ function fizzbuzz() {
         if (isDiv(i,7)) {
             s+="Bang";
         }
-        if (isDiv(i,3) || isDiv(i,5) || isDiv(i,7)) {
+
+        if (isDiv(i,11)) {
+            console.log("Bong");
+        } else if (isDiv(i,3) || isDiv(i,5) || isDiv(i,7)) {
             console.log(s);
         } else {
             console.log(i);
